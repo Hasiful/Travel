@@ -1,0 +1,303 @@
+
+/* 576 */ 
+@media(min-width: 576px){
+    .destination_item:first-child,
+    .destination_item:nth-child(2){
+        width: calc(50% - 6px);
+    }
+
+    .destination_item {
+        width: calc(33.33% - 8px);
+    }
+
+    .search_form{
+        margin-top: -220px;
+    }
+
+    .banner_content {
+        margin-bottom: 100px;
+    }
+
+    .destination_add {
+        height: 300px;
+    }
+
+    .tourlist_wrapper .package_item {
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+    .tourlist_wrapper .package_item .card-img {
+        height: auto;
+        width: 40%;
+    }
+    
+    .tourlist_wrapper .package_item .card-body {
+        width: calc(100% - 40%);
+    }
+    
+    .tourgrid_wrapper .package_item{
+        width: calc(50% - 12px);
+    }
+
+    .model-gallery-image .one-item-slider .item{
+        height: 430px !important;
+    }
+    .model-gallery-image .all-item-slider {
+        margin-top: -6px;
+    }
+
+    .contact_location ul li{
+        flex-direction: row;
+    }
+    
+    .contact_info_text {
+        width: calc(100% - 74px);
+    }
+
+    .contact_information h3{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .contact_location ul li:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    .contact_wrapper .main__form_content {
+        padding: 30px 20px;
+        margin: 0px;
+    }
+
+    .contact_wrapper {
+        padding: 30px;
+    }
+    .contact_left {
+        padding: 30px;
+    }
+    .contact_wrapper {
+        margin-top: -140px;
+    }
+
+    .gallery__item{
+        width: calc(50% - 6px);
+    }
+
+    .section_title_text{
+        font-size: 28px;
+    }
+
+    .banner_heading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+}
+/* 768 */
+@media(min-width: 767px){
+    .section_padding{
+        padding: 40px 0px;
+    }
+    .destination_item {
+        height: 200px;
+    }
+
+    .destination_add {
+        height: 350px;
+    }
+    .tourlist_wrapper .package_item .card-img {
+        width: 30%;
+    }
+    
+    .tourlist_wrapper .package_item .card-body {
+        width: calc(100% - 30%);
+    }
+
+    .tourgrid_wrapper .package_item{
+        width: calc(33.33% - 16px);
+    }
+
+    .model-gallery-image .all-item-slider li {
+        margin: 5px 0px;
+    }
+
+    .contact_location ul li{
+        flex-direction: column;
+    }
+    
+    .contact_info_text {
+        width: 100%;
+    }
+
+    .contact_left {
+        border-radius: 12px 0px 0px 12px;
+    }
+
+    .gallery__item{
+        width: calc(33.33% - 8px);
+    }
+
+    .section_title_text{
+        font-size: 32px;
+    }
+    .banner_heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .testimonial-one__quote {
+        font-size: 18px;
+    }
+
+}
+/* 1024 */
+@media(min-width: 992px){
+    .main {
+        margin-top: 124px;
+    }
+
+    .main-footer {
+        margin-bottom: 0px;
+    }
+    .contact_location ul li{
+        flex-direction: row;
+    }
+    
+    .contact_info_text {
+        width: calc(100% - 74px);
+    }
+
+    .bottom_nav{
+        display: none;
+    }  
+
+    .section_padding{
+        padding: 50px 0px;
+    }
+
+    .header_logo{
+        width: 200px;
+    }
+
+    .banner_content {
+        margin-bottom: 170px;
+    }
+
+    .form_nav_tab {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 36px 30px;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    }
+
+    .search_form .theme_search_form_tabbtn {
+        margin-top: -78px;
+    }
+
+    .destination_wrapper{
+        gap: 24px;
+    }
+
+    .destination_add {
+        height: auto;
+    }
+
+    .destination_item:first-child,
+    .destination_item:nth-child(2){
+        width: calc(50% - 12px);
+    }
+
+    .destination_item {
+        width: calc(33.33% - 16px);
+    }
+    .destination_item {
+        height: 220px;
+    }
+    .destination_add {
+        width: calc(40% - 24px);
+    }
+    
+    .destination_wrapper{
+        width: 60%;
+    }
+    .testimonial-one__quote {
+        padding: 50px 60px;
+    }
+
+    .tourlist_sidebar {
+        width: 320px;
+        position: sticky;
+        top: 100px;
+        background: transparent;
+        height: auto !important;
+        z-index: auto;
+    }
+
+    .tourlist_content{
+        width: calc(100% - 344px);
+    }
+
+    .tourlist_wrapper .package_item .card-img {
+        width: 40%;
+    }
+    
+    .tourlist_wrapper .package_item .card-body {
+        width: calc(100% - 40%);
+    }
+
+    .tourgrid_wrapper .package_item{
+        width: calc(50% - 12px);
+    }
+    
+    .gallery__item {
+        width: calc(25% - 9px);
+    }
+
+    .section_title_text {
+        font-size: 42px;
+    }
+    .banner_heading {
+        font-size: 42px;
+        line-height: 52px;
+    }
+}
+
+/* 1240 */
+@media(min-width: 1200px){
+
+    .gallery__wrapper{
+        gap: 24px;
+    }
+    
+    .gallery__item{
+        width: calc(25% - 18px);
+    }
+
+    .section_padding{
+        padding: 60px 0px;
+    }
+
+    .destination_item {
+        height: 270px;
+    }
+
+    .destination_name {
+        font-size: 18px;
+    }
+    .tourlist_wrapper .package_item .card-img {
+        width: 30%;
+    }
+    
+    .tourlist_wrapper .package_item .card-body {
+        width: calc(100% - 30%);
+    }
+
+    .tourgrid_wrapper .package_item{
+        width: calc(33.33% - 18px);
+    }
+
+    .contact__banner {
+        height: 400px;
+    }
+}
+
+@media(max-width: 991px){}
